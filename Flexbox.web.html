@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>🇯🇵JAPAN Travel</title>
+    <link rel="stylesheet" href="flexbox.web.css">
+    <script src="https://kit.fontawesome.com/fdead9a902.js" crossorigin="anonymous"></script>
+    <script>
+      function leermas(id){
+      if(id=="mas"){
+      document.getElementById("desplegar").style.display="block";
+      document.getElementById("mas").style.display="none";
+      }
+      else{
+      document.getElementById("desplegar").style.display="none";
+      document.getElementById("mas").style.display="inline";
+      }
+      }
+      </script>
+</head>
+<body>
+    <header class="header">
+        <div class="headerWrap">
+            <a href="#" class="logo">
+              <img src="images/lojoJapan.png" alt="logo Japon">
+            </a>
+            <nav class="nav">
+
+             <a href="">Inicio</a>
+             <a href="">Rutas</a>
+             <a href="">Hoteles</a>
+             <a href="">Vuelos</a>
+             <a href="">Contactos</a>
+            </nav>
+            <div class= "iconos">
+              <a href=#><i class="fab fa-facebook"></i></a>
+              <a href=#><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="texto">
+             <div class="transparent">
+            <h1>"Disfruta de la Experiencia de Otros Viajeros"</h1>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <section class="section">
+      <article class="izquierdo">
+        <div class="celeste4"></div>
+        <div class="celeste1"></div>
+        <div class="celeste2"></div>
+        <div class="celeste3"></div>
+        <div class="darkblue"></div>
+      </article>
+      <article class="derecho">
+        <div class="amarillo1"></div>
+        <div class="amarillo2">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quae delectus labore explicabo. Inventore dignissimos facilis incidunt voluptatibus pariatur repudiandae ipsam, ab amet fuga, deleniti exercitationem temporibus unde magni laudantium?</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius quisquam accusantium, adipisci doloremque non consectetur dolor dolore minima fugiat facilis officia aliquam provident nostrum. Ut voluptatem odio sequi fugit. Fugit!</p>
+          <p>
+            <a href="#" onclick="leermas('mas');" id="mas">... [leer más]</a>
+          </p>
+          <p id="desplegar" style="display:none;">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, ad voluptatibus. Numquam, eos perferendis eveniet sit iusto nisi? Sed molestias aliquam facilis in quo, eveniet ipsum ab blanditiis dolore at!
+          <br />
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quo! Fugiat doloribus corrupti repellat non accusamus autem incidunt tempore, omnis eaque doloremque cupiditate rem obcaecati iste consequatur nemo, inventore magnam.
+          <br>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab ipsum eveniet porro ad id odit doloremque perferendis beatae itaque numquam perspiciatis, soluta aspernatur minus pariatur magnam sunt, ex recusandae rem! <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, est voluptatibus mollitia quas fugiat sunt sit nihil vero modi! Animi reprehenderit repellendus voluptatum odit suscipit natus autem aliquid sed obcaecati!
+          <a href="#" onclick="leermas('menos');" id="menos">... [leer menos]</a>
+          </p>
+        </p>
+
+       </div>
+      </article>
+    </section>
+    <footer class="footer">
+      <div class="marron">
+        <img src="images/lojoJapan.png" alt="logo">
+        <p class="textoFooter">© 2021 Japan Travel</p>
+      </div>
+    </footer>
+</body>
+</html>
